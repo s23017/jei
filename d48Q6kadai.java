@@ -16,7 +16,7 @@ class d48Q6kadai{
 		Match match = new Match();
 		match.setAchievements(teamA, teamB);
 		System.out.println(match.showResult());
-		System.out.println(match.showWinner());
+		System.out.println(match.showWinner()); //追加
 		}
 	}
 
@@ -34,7 +34,7 @@ class Match {
 				"Team A:"  + winPoint(teamA.point, teamB.point, teamA.tryNumber) + ", Team B:" + winPoint(teamB.point, teamA.point, teamB.tryNumber);
 
 		}
-
+	// 追加
 		String showWinner() {
 				        int teamAPoints = winPoint(teamA.point, teamB.point, teamA.tryNumber);
         int teamBPoints = winPoint(teamB.point, teamA.point, teamB.tryNumber);
