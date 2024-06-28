@@ -1,5 +1,5 @@
 //s23017
-//
+//基数をもう一つ加えるプログラムを作成
 
 public class d49Q5kadai {
     public static void main(String[] args) {
