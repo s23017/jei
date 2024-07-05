@@ -1,5 +1,5 @@
 // s23017
-// コマンドラインから与えられて整数を指定するよう変更
+// コマンドラインから与えられた整数を指定するよう変更
 
 class d50Q27kadai {
 	public static void main(String[] args) {
