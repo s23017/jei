@@ -1,3 +1,6 @@
+//s23017
+//10単位でコンパクトに表示
+
 public class d52Q5kadai {
 	public static void main(String[] args){
 		String majors = "+----";
